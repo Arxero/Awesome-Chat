@@ -52,7 +52,7 @@ export default class Navigation extends Component {
                             <ul className="dropdown">
                                 {this.state.clicked &&
                                     <div>
-                                        <li><a target='_blank' rel="noopener noreferrer" href="https://github.com/">GitHub</a></li>
+                                        <li><a target='_blank' rel="noopener noreferrer" href="https://github.com/Arxero/Awesome-Chat">GitHub</a></li>
                                         <li><a target='_blank' rel="noopener noreferrer" href="http://awesomecs.syntrwave.com/">Our Forum</a></li>
                                     </div>}
                             </ul>
