@@ -42,7 +42,7 @@ export default class Register extends Component {
 
         if (RegExp('^[a-zA-Z]{3,}$').test(this.state.user.username)) {
             if (RegExp('^[a-zA-Z0-9]{3,}$').test(this.state.user.password)) {
-                if (RegExp('^[^@s]+@[^@s]+.[^@s]+$').test(this.state.user.email)) {
+                if (RegExp('^[^@]+@[^@]+[^@]+$').test(this.state.user.email)) {
 
                     fetch(BASE_URL + 'user/' + APP_KEY + '/', {
                         method: 'POST',
